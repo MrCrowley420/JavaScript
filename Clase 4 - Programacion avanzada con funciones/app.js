@@ -1,8 +1,3 @@
-//   console.log("Desafio 4 ")
-
-//   let unaResta = numero => numero - 10;
-
-//   console.log(unaResta(100)) 
 let producto = prompt("Cuantos quiere comprar?");
 let precio1 = 250
 let resultado = 0
@@ -10,6 +5,8 @@ let resultadoIva = 0
 let iva = 1.21
 let precioMayorista50 = 50
 let resultadox50 = 0
+let descuento = 3000
+let resultadoDescuento = 0
 
 
 function calcularPrecio(producto, precio1) {
@@ -33,3 +30,9 @@ function precioMayorista(precio1, precioMayorista50) {
 }
 precioMayorista(precio1, precioMayorista50);
 mostrar(`El precio mayorista por 50 es ${resultadox50} sin iva`);
+
+function precioConDescuentoMayorista(resultadox50, descuento) {
+    resultadoDescuento = resultadox50 - descuento;
+}
+precioConDescuentoMayorista(resultadox50, descuento);
+mostrar(`El precio mayorista x 50 con descuento en efectivo es ${resultadoDescuento}`);

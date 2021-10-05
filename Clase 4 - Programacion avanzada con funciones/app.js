@@ -1,4 +1,4 @@
-let producto = prompt("Cuantos quiere comprar?");
+let producto = Number(prompt("Cuantos quiere comprar?"));
 let precio1 = 250
 let resultado = 0
 let resultadoIva = 0

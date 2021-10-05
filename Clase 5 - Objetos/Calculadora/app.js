@@ -1,5 +1,17 @@
 class Calculadora {
-    constructor() {}
+
+    constructor(sumar, restar, dividir, multiplicar, potenciar, raizCuadrada, raizCubica) {
+        this.sumar = sumar
+        this.restar = restar
+        this.dividir = dividir
+        this.multiplicar = multiplicar
+        this.potenciar = potenciar
+        this.raizCuadrada = raizCuadrada
+        this.raizCubica = raizCubica
+    }
+
+
+
     sumar(num1, num2) {
         return parseInt(num1) + parseInt(num2);
     }
@@ -25,6 +37,7 @@ class Calculadora {
     raizCubica(num) {
         return Math.cbrt(num);
     }
+
 }
 
 const calculadora = new Calculadora();

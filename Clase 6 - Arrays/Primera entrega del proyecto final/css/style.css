@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 4.5em; }
+
+h2 {
+  font-size: 3.5em; }
+
+h3 {
+  font-size: 2.5em; }
+
+h4 {
+  font-size: 1.5em; }
+
+.mixinUno {
+  padding: 2em;
+  margin: 0.5em; }
+
+.scale:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer; }
+
+@media (max-width: 768px) {
+  .subTitulo {
+    font-size: 3em; }
+  .media {
+    display: flex;
+    justify-content: center; } }
+
+@media (max-width: 991px) {
+  .mediaDos {
+    display: flex;
+    justify-content: center; } }
+
+header img {
+  width: 200px; }
+
+header nav img {
+  width: 40px; }
+
+body {
+  background: url(../imagenes/blackmamba.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Anton", sans-serif;
+  margin-bottom: 0.7em;
+  color: whitesmoke;
+  text-align: center; }
+
+p {
+  font-family: "Anton", sans-serif;
+  line-height: 1.3em;
+  color: whitesmoke;
+  padding: 1em;
+  text-align: start;
+  font-size: 1.2em; }
+
+img {
+  width: 100%; }
+
+.imagen {
+  width: 30%; }
+
+.imagenDos {
+  width: 50%; }
+
+.nuestrosTrabajos ul {
+  color: whitesmoke;
+  font-size: 1.2em;
+  font-family: "Anton", sans-serif; }
+  .nuestrosTrabajos ul li {
+    margin-bottom: 0.7em;
+    list-style: none; }
+
+footer nav div img {
+  width: 70px; }
+
+footer nav nav div ul li a {
+  color: whitesmoke; }
+
+.errorBody {
+  background: linear-gradient(45deg, #8500ff, #5acaff);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 50px; }
+
+.dignidad {
+  background: url(../img404/dignidad.jpg);
+  height: 800px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center; }

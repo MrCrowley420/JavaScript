@@ -1,0 +1,9 @@
+// Inicio de modificaciones de variables
+$primary: rgb(22, 21, 21);
+$white: whitesmoke;
+$font-size-base: 1rem;
+$font-size-root: 100%;
+$link-decoration: none !default;
+// $theme-colors: ( "warning": pink, "success": yellow);
+// Fin de modificaciones de variables
+@import "../libs/bootstrap/scss/bootstrap.scss";

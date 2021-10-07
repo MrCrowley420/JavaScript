@@ -1,0 +1,125 @@
+En el archivo index.html sume al SEO con las siguientes caracteristicas:
+
+- Descripcion: mediante la etiqueta meta name description, agregue el siguiente parrafo que resume en pocas palabras el contenido de mi sitio:
+"Taller especializado en mecanica y customizaciones unicas ubicado en Zona Norte San Fernando".
+
+-Keywords: mediante la etiqueta meta name keywords, agregue as mismas que acompañaran esta seccion de mi sitio:
+"customizaciones, mecanica, soldaduras, fabricacion escapes".
+
+-Encabezado: para mi encabezado h1 que va a ser el mismo para todas las secciones de mi sitio utilice el texto "LOW LIFE CUSTOMS"
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+En el archivo nuestrotaller.html sume al SEO con las siguientes caracteristicas:
+
+- Descripcion: mediante la etiqueta meta name description, agregue el siguiente parrafo que resume en pocas palabras el contenido de mi sitio:
+"Conoce la historia de nuestro taller ubicado en Zona Norte San Fernando".
+
+-Keywords: mediante la etiqueta meta name keywords, agregue as mismas que acompañaran esta seccion de mi sitio:
+"historia taller, modificacion motos cafe racer, mas de 100 motos modificadas".
+
+-Encabezado: para mi encabezado h1 que va a ser el mismo para todas las secciones de mi sitio utilice el texto "LOW LIFE CUSTOMS"
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+En el archivo nuestrostrabajos.html sume al SEO con las siguientes caracteristicas:
+
+- Descripcion: mediante la etiqueta meta name description, agregue el siguiente parrafo que resume en pocas palabras el contenido de mi sitio:
+"Conoce el staff de nuestro taller ubicado en Zona Norte San Fernando".
+
+-Keywords: mediante la etiqueta meta name keywords, agregue as mismas que acompañaran esta seccion de mi sitio:
+"nuestros trabajos, moto 1, moto 2, moto 3, moto 4, hate 1600".
+
+-Encabezado: para mi encabezado h1 que va a ser el mismo para todas las secciones de mi sitio utilice el texto "LOW LIFE CUSTOMS"
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+En el archivo staff.html sume al SEO con las siguientes caracteristicas:
+
+- Descripcion: mediante la etiqueta meta name description, agregue el siguiente parrafo que resume en pocas palabras el contenido de mi sitio:
+"Conoce algunas de nuestras customizaciones unicas como la harley davidson hate 1600 de nuestro taller low life motorcycles co ubicado en Zona Norte San Fernando".
+
+-Keywords: mediante la etiqueta meta name keywords, agregue as mismas que acompañaran esta seccion de mi sitio:
+"staff, quienes somos".
+
+-Encabezado: para mi encabezado h1 que va a ser el mismo para todas las secciones de mi sitio utilice el texto "LOW LIFE CUSTOMS"
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+En el archivo staff.html sume al SEO con las siguientes caracteristicas:
+
+- Descripcion: mediante la etiqueta meta name description, agregue el siguiente parrafo que resume en pocas palabras el contenido de mi sitio:
+"Contactanos en taller ubicado en Zona Norte San Fernando".
+
+-Keywords: mediante la etiqueta meta name keywords, agregue as mismas que acompañaran esta seccion de mi sitio:
+"contacto, dejanos tu mensaje, ubicacion".
+
+-Encabezado: para mi encabezado h1 que va a ser el mismo para todas las secciones de mi sitio utilice el texto "LOW LIFE CUSTOMS"
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Sume una seccion para el page error 404 para que redireccione al index.html
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Todas las imagenes de todas las secciones y los logos se encuentran ya modificados para pesar lo menos posible en JPG y PNG, no pesa mas de 500 kb
+cada imagen, lo que lo hace ideal para ser navegable en responsive sin consumir muchos datos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+En la seccion nuestro taller esta resaltado con strong la parte de que llevamos mas de 100 motos modificadas para darle mas importancia a esa palabra
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Cada seccion tiene el mismo h1 "LOW LIFE CUSTOMS" que es lo mas importante del taller debido a que nos dedicamos de lleno a las customizaciones con los h2
+correspondientes para dar importancia a cada seccion.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Cada seccion tiene su descripcion correspondiente a su contenido.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Todas las imagenes de todas las secciones tienen su descripcion alternativa para que pueda ser navegable por personas no videntes
+
+
+                                                   _,--.__
+                                                 ,'       `-.
+                                                (            )
+                                              ,'              )
+                                              ,               )
+                                             (               ,
+                                            (                )
+                                            ,                )
+                                           (               ,'
+                                          ,'               )
+                    _                     (                )
+                 _,/_><-.                 (               ,'
+               ,''  '  ``:               ,'               \
+              /           \              (               ,'
+             :             :             (               )
+             |             |            ( _.__.__.      (
+             |   ___,  _.  |            (/ ,,__,_,`;    )
+             |  /    \/  `-.)           `,'  /   `'_)   )
+            /V\(     o)    o)            o,--|o   ,(__ ,'
+            (a` `.__,'`-.__/            _,`-- `--'  e_))
+             )- ,'   `--'`.            `.______     / /
+             ; /          |                  \ `   |-'
+            / |           )                   )    (
+           /  `.     o_,-'                   /  ,o  .
+         ,'     `---'`-.                    /  ,8'   \
+       ,'               `.                ,'   d8     \  __
+     ,'                   `.             / )  _8F   (  )',.`.
+    /    ,              .   \           / /,-' 8'`-._;'  `',-\__
+   /    :                \   \      `"88m,'    Y        _,'-----'
+  :     ( .             . )   \      `.       (O)    ,d88m.
+  ;    /                  \    \       |-._   ,Y   ,_,' |
+ :    /                    \    :      |   |`-88--' |   |
+ :   :     ,-.           \'".   :      |   ;  88    :   |
+ |   :    (---\         { `;'   |      ;  /  ;F      \  :
+ |   \ _,-\__,`          )==|   |     /  /  ,"-,--.   \  \
+(     / ( '_ ,--------. _, )\   :    /  / ,:   |  ,`.  :  \
+ \   (_  `._)D,------.C(_,' ),   \  /   ':  `.,-.'   : `   \
+  \|||\`-' (/==,'"`.===\)' /\)) // (,,,| )---(   )---(  |),,)
+   `'| ) )    (.   ,)   ( (|  `^`   \||: :   ,`-'`. ,'  |||'
+     |( (      \`-'/     ' )         \':  `;   |   ;    ;'/
+   ,--"""`-----'-^-`----'"""-.          \   `-+^+-'    ;
+   `------------+-+----------'           \    | |     /
+     |          | |        |              \   | |    /
+     |          | |        |    -hrr.     |   | |    |
+
+------------------------------------------------
+
+
+					.

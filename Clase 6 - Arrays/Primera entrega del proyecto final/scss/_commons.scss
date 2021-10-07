@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//colores
+$bg-white: whitesmoke;
+//padding
+$p: 1em;
+//margin
+$mb:0.7em;
+//OPERADORES
+@for $i from 1 to 5 {
+    h#{$i} {
+        font-size: 5.5em -$i
+    }
+}
+
+// Mixin
+@mixin p-m($relleno, $margen) {
+    padding: $relleno;
+    margin: $margen;
+}
+
+.mixinUno {
+    @include p-m(2em, 0.5em);
+}
+
+//clases animacion
+.scale:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+//Media
+@media (max-width: 768px) {
+    .subTitulo {
+        font-size: 3em;
+    }
+    .media {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .mediaDos {
+        display: flex;
+        justify-content: center;
+    }
+}

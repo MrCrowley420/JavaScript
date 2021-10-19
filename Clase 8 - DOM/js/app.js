@@ -35,7 +35,7 @@ let admin = "sos admin"
 			alert(menor)
 
 		}
-	if(nombre === "guido" && apellido === "negrisoli"){
+	if(nombre === "damian" && apellido === "correa"){
 		console.log("Sos Admin")
 		alert(admin)
 	}

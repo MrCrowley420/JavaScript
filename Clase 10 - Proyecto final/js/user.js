@@ -4,9 +4,9 @@ class User {
 
     constructor(nombre, pass) {
         this.nombre = nombre;
-        this.pass = pass
+        this.pass = pass;
     }
-}
+};
 
 class Producto {
     constructor(nombre, categoria, precio, stock) {
@@ -16,9 +16,9 @@ class Producto {
         this.stock = stock;
 
     }
-}
+};
 
-const damian = new User("damian", "correa")
+const damian = new User("damian", "correa");
 
 let listaProductos;
 
@@ -26,7 +26,7 @@ if (localStorage.getItem("lista") == null) {
     listaProductos = []
 } else {
     listaProductos = JSON.parse(localStorage.getItem("lista"))
-}
+};
 
 
 
@@ -34,53 +34,43 @@ if (localStorage.getItem("lista") == null) {
 const crearProducto = (nombre, categoria, precio, stock) => {
     const producto = new Producto(nombre, categoria, precio, stock)
     return producto
-}
+};
 
 
 
 
 
-const confirmacionDeAcceso = () => {
+let nombre;
+let pass;
 
-    let bucle = true
+const guardarDato = (nombre, pass) => {
 
-    while (bucle) {
+    nombre = document.getElementById("usuario").value;
+    pass = document.getElementById("password").value;
 
-        const guardarDato = () => {
 
-            const nombre = document.getElementById("usuario").value
+    if (nombre === damian.nombre & pass === damian.pass) {
 
-            const pass = document.getElementById("password").value;
+        let ciclo = true;
+
+        while (ciclo) {
+
+            const nombre = prompt("Ingrese el nombre del producto por favor");
+            const categoria = prompt("Ingrese la categoria del producto por favor");
+            const precio = Number(prompt("Ingrese el precio del producto por favor"));
+            const stock = parseInt(prompt("Ingrese el stock del producto por favor"));
+
+            listaProductos.push(crearProducto(nombre, categoria, precio, stock));
+
+            localStorage.setItem("lista", JSON.stringify(listaProductos));
+
+            ciclo = confirm("Deseas agregar otro mas?");
+
         }
-        document.getElementById("save").addEventListener("click", () => {
-            guardarDato()
-        })
-
-
-        if (nombre === damian.nombre && pass === damian.pass) {
-            bucle = false
-
-            let ciclo = true;
-
-            while (ciclo) {
-                const nombre = prompt("Ingrese el nombre del producto por favor");
-                const categoria = prompt("Ingrese la categoria del producto por favor");
-                const precio = Number(prompt("Ingrese el precio del producto por favor"));
-                const stock = parseInt(prompt("Ingrese el stock del producto por favor"))
-
-                listaProductos.push(crearProducto(nombre, categoria, precio, stock))
-
-                localStorage.setItem("lista", JSON.stringify(listaProductos))
-
-                ciclo = confirm("Deseas agregar otro mas?")
-
-            }
-
-            break;
-
-        } else {
-            alert("USUARIO INCORRECTO")
-        }
+    } else {
+        alert("USUARIO INCORRECTO");
     }
-}
-confirmacionDeAcceso()
+};
+document.getElementById("save").addEventListener("click", () => {
+    guardarDato(nombre, pass);
+});

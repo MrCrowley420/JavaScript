@@ -1,0 +1,5 @@
+Proyecto perf/
+node_modules/
+*.ai
+*.temp
+*.pdf
